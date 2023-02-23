@@ -30,7 +30,7 @@ public class AnalyticsCounter {
 
         // Écrit les résultats dans un fichier
         ISymptomWriter writeSymptomDataToFile = new WriteSymptomDataToFile(RESULTS);
-        writeSymptomDataToFile.write(stringIntegerMap);;
+        writeSymptomDataToFile.write(stringIntegerMap);
 
     }
 }
